@@ -1,18 +1,12 @@
 # Build Traits 
 
-A library to help do template specialization based on the platform, compiler, and machine information. The goal of this library is to prevent stringing preprocessor logic throughout the code and limit it to a few locations.  
+A library to help do template specialization based on the platform, compiler, and machine information. The goal of this library is to prevent stringing preprocessor logic throughout the code and limit it to a few locations. 
+
+You will probably need to see examples to understand how to use this. The best example currently resides in [PluginFactory](https://github.com/paxos1977/PluginFactory), specifically look at the [PluginExtensionHelper class](https://github.com/paxos1977/PluginFactory/blob/develop/PluginFactory/details/PluginExtensionHelper.hpp).
 
 ### Dependencies 
 
 - c++11
-
-Used for unit testing on all platforms:
-
-- [UnitTest++](https://github.com/unittest-cpp/unittest-cpp). Unit test framework.
-
-Windows Platforms:
-
-- Visual Leak Detector (VLD). Used on windows to detect memory leaks in unit tests)
 
 ### Contributors 
 
