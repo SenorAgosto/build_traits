@@ -1,4 +1,4 @@
- # Build Traits 
+# Build Traits 
 
 A library to help do template specialization based on the platform, compiler, and machine information. The goal of this library is to prevent stringing preprocessor logic throughout the code and limit it to a few locations.  
 
