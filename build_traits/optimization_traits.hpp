@@ -6,10 +6,10 @@ struct optimization_traits
 {
 	enum class OptimizationLevel 
 	{
-		Debug,
-		Release,
-		StaticAnalysis,
-		PerformanceInstrumented
+		debug,
+		release,
+		static_analysis,
+		performance_instrumented
 	};
 
 	constexpr static OptimizationLevel optimization()
