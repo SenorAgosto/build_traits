@@ -6,11 +6,11 @@ struct machine_traits
 {
 	enum class RegisterSize
 	{
-		8_bit,
-		16_bit,
-		32_bit, 
-		64_bit,
-		128_bit
+		bits_8,
+		bits_16,
+		bits_32,
+		bits_64,
+		bits_128
 	};
 
 	enum class Endian
