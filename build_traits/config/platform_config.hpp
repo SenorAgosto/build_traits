@@ -7,7 +7,7 @@
 #define BUILD_TRAITS_PLATFORM Platform::macosx 
 #endif 
 
-#ifdef LINUX 
+#ifdef LINUX || defined(__linux__)
 #define BUILD_TRAITS_PLATFORM Platform::linux
 #endif
 
